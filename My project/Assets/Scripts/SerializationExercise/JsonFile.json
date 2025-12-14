@@ -1,0 +1,145 @@
+{
+  "player_id": "PLR-7701",
+  "nickname": "ShadowForge",
+  "account_info": {
+    "email_addr": "shadowforge007@gamemail.com",
+    "created_on": "2022-04-10T14:33:20Z"
+  },
+  "character": {
+    "char_id": "CHR-102",
+    "char_name": "Valen Dray",
+    "class-type": "Tech-Ranger",
+    "level_cur": 27,
+    "xp_next_lvl": 14250,
+    "stats": {
+      "hp_max": 320,
+      "mp_max": 140,
+      "atk_pwr": 65,
+      "def_rate%": 12.5,
+      "crit-chance%": 7.1
+    },
+    "equipment": {
+      "weapon_slot": {
+        "item_code": "WPN-AX42",
+        "name_txt": "Pulse Axe",
+        "rarity": "epic",
+        "dmg_val": 88,
+        "fireRate/sec": 1.1
+      },
+      "armor_slot": {
+        "item_code": "ARM-BT21",
+        "name_txt": "Titan Weave Vest",
+        "rarity": "rare",
+        "def_bonus": 22,
+        "resist-map": {
+          "fire": 5,
+          "ice": 10,
+          "shock": 2
+        }
+      }
+    }
+  },
+  "quests_active": [
+    {
+      "q_id": "Q-9001",
+      "qTitle": "Echoes in the Vault",
+      "progress-step": 3,
+      "objectives": [
+        {
+          "desc": "Find the Vault entrance",
+          "done": true
+        },
+        {
+          "desc": "Override the sealed gate",
+          "done": true
+        },
+        {
+          "desc": "Recover the Echo Core",
+          "done": false
+        }
+      ]
+    },
+    {
+      "q_id": "Q-2308",
+      "qTitle": "Predator Sweep",
+      "progress-step": 1,
+      "objectives": [
+        {
+          "desc": "Eliminate 10 Razor Beasts",
+          "done": false
+        }
+      ]
+    }
+  ],
+  "inventory": {
+    "bag_main": [
+      {
+        "itm_id": "CON-301",
+        "itm_name": "Nano Medkit",
+        "qty": 5
+      },
+      {
+        "itm_id": "GEM-502",
+        "itm_name": "Crystallized Ember",
+        "qty": 2,
+        "extra-vals": {
+          "energy_lvl": 44
+        }
+      }
+    ],
+    "bag_resources": [
+      {
+        "res_type": "iron_ore",
+        "units": 34
+      },
+      {
+        "res_type": "flux_crystal",
+        "units": 6
+      }
+    ]
+  },
+  "match_history": [
+    {
+      "match_id": "M-44120",
+      "start_time_unix": 1735201120,
+      "duration_sec": 820,
+      "result": "win",
+      "score": {
+        "kills": 12,
+        "assists": 4,
+        "deaths": 1
+      }
+    },
+    {
+      "match_id": "M-44148",
+      "start_time_unix": 1735290001,
+      "duration_sec": 670,
+      "result": "loss",
+      "score": {
+        "kills": 3,
+        "assists": 2,
+        "deaths": 5
+      }
+    }
+  ],
+  "settings_cfg": {
+    "audio": {
+      "vol_master": 0.8,
+      "vol_fx": 0.6,
+      "vol_music": 0.4
+    },
+    "graphics": {
+      "quality_lvl": "high",
+      "fov_angle": 95
+    },
+    "controls_map": {
+      "sens_mouse": 1.15,
+      "keybinds": {
+        "move_forward": "W",
+        "move_back": "S",
+        "special_skill": "Q",
+        "ultimate_skill": "X"
+      }
+    }
+  }
+}
